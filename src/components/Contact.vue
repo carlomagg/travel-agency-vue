@@ -7,7 +7,7 @@
     <aside id="contactside" class="hide" v-if="contactFunction">
       <ul id="contact-details">
         <li><span><img v-bind:src= "'assets/images/images/Telephone.png'" ></span>
-        Phone: <a href="tel:123 436 7890">123 436 7890</a></li>
+        Phone: <a href="tel:123 436 7890">07065572659</a></li>
         <li><span><img v-bind:src="'assets/images/images/envelope.png'" ></span>
         Mail: <a href="mailto:info@travelagency.com">info@travelagency.com</a></li>
         <li><span><img v-bind:src="'assets/images/images/Address.png'" ></span>
@@ -30,7 +30,7 @@
         <li>
           <label>First name</label>
           <input id="firstname" type="text" name="firstname" v-model="name">
-       
+
         </li>
         <li>
           <label>Last name</label>
@@ -93,7 +93,7 @@ export default {
 
       show: 'true',
 
-      
+
     }
   }
 
